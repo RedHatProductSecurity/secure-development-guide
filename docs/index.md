@@ -5,7 +5,7 @@
 The purpose of this guide is to discuss industry accepted secure development practices specially applied to the open source context. While there are many references and documents freely available on the internet, this guide specifically talks about secure application design and secure development processes and practices. Currently secure coding is out of scope and is covered by another similar document.
 
 ## License
-Copyright 2012 Red Hat, Inc.
+Copyright 2022 Red Hat, Inc.
 
 The text of and illustrations in this document are licensed by Red Hat under a Creative Commons Attribution–Share Alike 3.0 Unported license ("CC-BY-SA"). An explanation of CC-BY-SA is available at http://creativecommons.org/licenses/by-sa/3.0/. In accordance with CC-BY-SA, if you distribute this document or an adaptation of it, you must provide the URL for the original version.
 
