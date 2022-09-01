@@ -9,3 +9,10 @@ Threat modeling is most effective when multiple stakeholders come together to lo
 
 While several approaches can be used to perform the assessment, We would recommend a design-centric threat modeling approach that focuses on areas where data passes over trust boundaries or virtual boundaries that separate groups of components with higher, lower, or different trust. 
 
+# Why threat modeling? 
+
+The express aim of threat modeling is to identify design issues, potential security weaknesses or arrive at a set of security needs that must be built. These are sometimes referred to as "non-functional requirements." Once identified, the security requirements when implemented will bring a system or set of systems to the intended security posture. Identifying likely threats and the probable consequences of successful attacks is the method of investigation to identify an appropriate set of defenses. It is an industry best practice to validate the defenses that were derived from the threat model and this validation can be achieved with the likes of Penetration Testing etc. 
+
+While some threat modeling methods focus on identifying threats and security issues, other methods also perform an assessment of the resulting risks by rating the consequences (impacts) and the likelihood of threats. Such methods are also called Threat and Risk Analysis or Assessment (see, for example, ISO 27005, NIST SP 800-30). Such a rating can be used to prioritize defenses.
+
+
