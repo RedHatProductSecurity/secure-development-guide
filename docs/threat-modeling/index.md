@@ -1,4 +1,8 @@
-# What is threat modeling?
+- [Threat modeling](#threat-modeling)
+  - [Why threat modeling?](#why-threat-modeling)
+
+
+# Threat Modeling
 
 
 Formally, threat modeling, outlined by OWASP, is a process by which potential threats are identified and rated for severity and possible mitigations are discussed. Less formally, threat modeling happens when you think about each decision that you make in the system you're creating and extrapolate how these may affect its security either immediately or in the future. 
