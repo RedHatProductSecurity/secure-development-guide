@@ -33,15 +33,36 @@ While some threat modeling methods focus on identifying threats and security iss
 
 ### More secure code
 
+Threat modeling done properly and early establishes a foundation for building a secure code base on a secure design. Designing an project with security in mind throughout the process reduces the chances of finding vulnerabilities and gives teams more confidence to concentrate on the features being delivered.
+
 ### Reduced cost by finding design flaws early and before release
+
+Threat modeling normally occurs during the project design phase and allows for early identification of security risks. If vulnerabilities are found, early detection saves valuable time and monetary resources when mitigations are required. The cost of closing a security risk increases dramatically as a project nears release, and exponentially once it has been released to the public.
 
 ### Reduced exposure to weakness, other methods may not uncover
 
+Design and development teams use many different methods to develop projects. Code and test plan reviews help engineers evaluate an Offerings’s effectiveness, but may not divulge such security concerns as the need for input validation or cryptography. Threat modeling examines the relationships that exist between a component’s atomic elements, analyzes how data flows between them, and exposes potentially exploitable weak points.
+
+
 ## Goal
+
+- Detect problems early in the software development lifecycle — even before coding begins.
+- Propose realistic mitigations to the identified weaknesses before a release, preventing costly post-deployment re-coding.
+- Spot design flaws that traditional testing methods and code reviews may overlook.
+- Think about threats and security issues unique to the Offering.
+- Brainstorm as a group to evaluate new forms of attack.
+- Help target testing and code review.
+- Identify gaps in Red Hat’s Product Security and Information Security requirements.
+- Highlight assets, threat agents, and controls to deduce components that attackers will target.
+
 
 ## When to do threat modeling
 
+Ideally, threat modeling is performed as soon as possible. There is a timing element to threat modeling that we highly recommend understanding. No matter how late in the development process threat modeling is performed, it is always critical to understand weaknesses in a design's defences. The cost of addressing issues will generally increase when we uncover design misses and missed security requirements later, or worse, at the end of the development process. It is much more useful to begin the process of identifying potential attacks and their treatments while identifying other system requirements.
+
+
 ## How to do threat modeling
+
 
 ## What a threat model will not provide
 
