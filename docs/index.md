@@ -25,6 +25,6 @@ All other trademarks are the property of their respective owners.
 All types of contribution to this document are welcome. PRs are preferable. For larger changes it would perhaps make more sense in discussing them before hand before filing change requests.
 
 ## Contributors
-Huzaifa Sidhpurwala <huzaifas@redhat.com>
-
+- Huzaifa Sidhpurwala <huzaifas@redhat.com>
+- Judy Kelly <jkelly@redhat.com>
 
