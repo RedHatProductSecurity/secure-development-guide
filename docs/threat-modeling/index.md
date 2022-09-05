@@ -63,6 +63,10 @@ Ideally, threat modeling is performed as soon as possible. There is a timing ele
 
 ## How to do threat modeling
 
+The process of threat modeling usually involves some of these distinct but closely related sub-activities: 
+- An initial, possibly incomplete, description of the structure and resources the system is subjected to or constrained by. This is often represented as a diagram (e.g., a data-flow diagram, DFD) that describes the system and maps (some of) the potential attack points from outside the system. It is supported by annotations about the internals of the system, data transformations and storage, and particulars such as deployment modes or asset descriptions. This can be done at varying levels of formality, from specification documents to drawings on the back of an envelope – but the description must accurately depict the system being modeled. 
+- The identification of a set of possible threats that would be relevant to the system being analyzed, how they would present themselves in various possible scenarios and what could be done to mitigate them.
+- The specific format is less important than its utility to the modelers. As long as it is sufficiently expressive, containing all important details without being overwhelmed with unimportant information, and the threats are relevant and well-defined, the modelers will usually converge to a "language" that works. In general, a representation will contain more than one of the items listed above; sometimes most of them. Still, in most threat models one or more of the included elements will be incomplete. Threat models are living documents subject to revision as more information becomes available. There are many possible ways of performing threat modeling, and the consensus is that there is not one single perfect way. A valid process is one that is repeatable, manageable and, above all, able to identify weaknesses. 
 
 ## What a threat model will not provide
 - Business Risk Assessment
@@ -82,6 +86,16 @@ Depending on the size of a particular project, one threat model can be completed
 - The threat model potentially can be reused as a dependency for other workload features that use the same components.
 - Considering threat mitigations at the component level means that a single threat may have multiple mitigations at the overall workload level, resulting in an improved resilience against those threats.
 - Issues with a single threat model (e.g. a critical threat which is not yet mitigated) do not become launch blockers for the entire workload, but rather just for the individual feature.
+
+## Myths of threat modeling:
+
+- We already do pen-tests we don't need to do threat modeling
+- The system is already built and deployed so there's no reason to do threat modeling
+- We did a threat model when the system was built so we don't need to do it again
+- Threat modeling is too complicated 
+- We don't have software security experts, so we can't do threat modeling.
+
+Threat modeling is a human activity best practiced with a range of expertise. Major pitfalls can occur when stakeholders with key knowledge are not included in the process, or when the team fails to agree on an up-to-date view of the system, its "moving parts" and communication mechanisms. Many examples of threats that failed to be identified at threat modeling time are in the categories of "things that fell between the cracks during design" and failures to communicate.  Failures of communication are responsible for "Eureka moments:" one designer explains how a certain part of the system works, and is interrupted by an implementer who clarifies that that is not exactly how it is working; the team collectively experiences a sudden understanding that previous assumptions were perhaps erroneous. This demonstrates the importance of including key stakeholders and making sure the formats adopted allow for clear and precise communication of details.
 
 ## Expected output
 
