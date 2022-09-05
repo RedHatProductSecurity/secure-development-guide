@@ -100,6 +100,16 @@ Threat modeling is a human activity best practiced with a range of expertise. Ma
 
 ## Expected output
 
+A documented Threat Model should include:
+
+- Description of the project architecture, to the single component level with a focus on the security of the application.
+- Documented and tracked findings.
+    - Any security flaws found, along with their severity ratings
+    - Software or design hardening suggestions
+    - Configuration and operating envrionment suggestions
+
+The end document can be used to feed into the application security life cycle e.g. It can be used to feed into security-focused test plans like Code-Based testing and Penetration Testing.
+
 ## Closing words
 
 **The intention on this document is to very briefly convey important information about threat modeling and how it can possibly help with secure development lifecyle. There are several detailed references and books available which can go into much detail of processes and methodologies to be used.**
