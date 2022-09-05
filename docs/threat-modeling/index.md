@@ -65,8 +65,23 @@ Ideally, threat modeling is performed as soon as possible. There is a timing ele
 
 
 ## What a threat model will not provide
+- Business Risk Assessment
+- A compliance check will all Security Standards
+- External Audit
+- Penetration Testing
+- Architecture Security Analysis with respect to code reviews
+- The threat model report does not constitute a guarantee that assets are secure from all threats
 
 ## Defining scope
+Scope: One Threat Model or Many?
+
+Depending on the size of a particular project, one threat model can be completed or a number of threat models per project, whereby the project is broken down by features, components or Engineering teams. Threat modeling by individual feature or component instead of creating a single threat model for the entire workload has a number of benefits:
+
+- Smaller chunks of work allow for more granular tracking of progress, which aligns well with Engineering teams that are following agile-style delivery and gives leadership a constant view of progress.
+- The resulting threat models tend to be more detailed, which results in more findings being identified.
+- The threat model potentially can be reused as a dependency for other workload features that use the same components.
+- Considering threat mitigations at the component level means that a single threat may have multiple mitigations at the overall workload level, resulting in an improved resilience against those threats.
+- Issues with a single threat model (e.g. a critical threat which is not yet mitigated) do not become launch blockers for the entire workload, but rather just for the individual feature.
 
 ## Expected output
 
