@@ -86,4 +86,5 @@ Depending on the size of a particular project, one threat model can be completed
 ## Expected output
 
 ## Closing words
-
+The intention on this document is to very briefly convey important information about threat modeling and how it can possibly help with secure development lifecyle. There are several detailed references and books available which can go into much detail of processes and methodologies to be used. 
+Lastly secure development does not and should not stop at threat modeling, try several processes like fuzzing, code audit, code scanning. Each of can be used to detect and prevent flaws and these detection capabilities are often mutually exclusive.
