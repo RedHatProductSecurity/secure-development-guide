@@ -9,6 +9,7 @@
   - [How to do threat modeling](#how-to-do-threat-modeling)
   - [What a threat model will not provide](#what-a-threat-model-will-not-provide)
   - [Defining scope](#defining-scope)
+  - [Myths of threat modeling:](#myths-of-threat-modeling)
   - [Expected output](#expected-output)
   - [Closing words](#closing-words)
 
