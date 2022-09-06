@@ -27,6 +27,7 @@ Also known as static analysis, this method works by running specialized software
 - **Rinse and repeat:** Now, that your first scan is done, you need to ensure that scanning is done at regular intervals, atleast before a release.
 
 ## When to do SAST
+SAST is more useful when done very early in the pipeline. Some web/cloud based SAST tools, run their scanner as soon as code is commited to a repository. This allowers developers to immediately fix the issue at hand. Some even run it during the CI/CD pipeline and block the commit if anything serious is found. Doing it later specially after QE testing is often results in wasted resources since the application will need to be patched and QE run again on it.
 
 ## SAST tools
 
