@@ -26,7 +26,7 @@ While several approaches can be used to perform the assessment, We would recomme
 
 ## Why threat modeling? 
 
-The express aim of threat modeling is to identify design issues, potential security weaknesses or arrive at a set of security needs that must be built. These are sometimes referred to as "non-functional requirements." Once identified, the security requirements when implemented will bring a system or set of systems to the intended security posture. Identifying likely threats and the probable consequences of successful attacks is the method of investigation to identify an appropriate set of defenses. It is an industry best practice to validate the defenses that were derived from the threat model and this validation can be achieved with the likes of Penetration Testing etc. 
+The express aim of threat modeling is to identify design issues, potential security weaknesses or arrive at a set of security needs that must be built. These are sometimes referred to as "non-functional requirements." Once identified, the security requirements when implemented will bring a system or set of systems to the intended security posture. Identifying likely threats and the probable consequences of successful attacks is the method of investigation to identify an appropriate set of defenses. It is an industry best practice to validate the defenses that were derived from the threat model and this validation can be achieved with the likes of Penetration Testing, Security Testing etc. 
 
 While some threat modeling methods focus on identifying threats and security issues, other methods also perform an assessment of the resulting risks by rating the consequences (impacts) and the likelihood of threats. Such methods are also called Threat and Risk Analysis or Assessment (see, for example, ISO 27005, NIST SP 800-30). Such a rating can be used to prioritize defenses.
 
@@ -34,7 +34,7 @@ While some threat modeling methods focus on identifying threats and security iss
 
 ### More secure code
 
-Threat modeling done properly and early establishes a foundation for building a secure code base on a secure design. Designing an project with security in mind throughout the process reduces the chances of finding vulnerabilities and gives teams more confidence to concentrate on the features being delivered.
+Threat modeling done properly and early establishes a foundation for building a secure code base on a secure design. Designing a project with security in mind throughout the process reduces the chances of finding vulnerabilities and gives teams more confidence to concentrate on the features being delivered.
 
 ### Reduced cost by finding design flaws early and before release
 
@@ -106,12 +106,12 @@ A documented Threat Model should include:
 - Documented and tracked findings.
     - Any security flaws found, along with their severity ratings
     - Software or design hardening suggestions
-    - Configuration and operating envrionment suggestions
+    - Configuration and operating environment suggestions
 
 The end document can be used to feed into the application security life cycle e.g. It can be used to feed into security-focused test plans like Code-Based testing and Penetration Testing.
 
 ## Closing words
 
-**The intention on this document is to very briefly convey important information about threat modeling and how it can possibly help with secure development lifecyle. There are several detailed references and books available which can go into much detail of processes and methodologies to be used.**
+**The intention of this document is to very briefly convey important information about threat modeling and how it can help with secure development lifecycle. There are several detailed references and books available which can go into much detail about processes and methodologies to be used.**
 
-Lastly secure development does not and should not stop at threat modeling, try several processes like fuzzing, code audit, code scanning. Each of can be used to detect and prevent flaws and these detection capabilities are often mutually exclusive.
+Lastly, secure development does not and should not stop at threat modeling, try several processes like fuzzing, code audit, code scanning. Each can be used to detect and prevent flaws and these detection capabilities are often mutually exclusive.
