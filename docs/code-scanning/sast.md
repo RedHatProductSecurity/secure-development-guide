@@ -1,4 +1,4 @@
-- [Static application security testing (SAST)](#static-application-security-testing-sast)
+- [Static Application Security Testing (SAST)](#static-application-security-testing-sast)
   - [Introduction](#introduction)
   - [Why do SAST?](#why-do-sast)
   - [SAST process and workflow](#sast-process-and-workflow)
@@ -20,6 +20,11 @@ Also known as static analysis, this method works by running specialized software
 - Its much faster than manual reviews or code-audits
 
 ## SAST process and workflow
+- **Choose the right tool for the right job:** This really depends on your code base and the place in the build/release pipeline where you want the scan can run. There are lot of free tools available, so unless your requirements are really specific, there is no need to spend too much!
+- **Setup the tool:** Most tools need configuration. There are rules for parsing code, some tools are self learning also. Often the best configuration really comes with using the tool for some time.
+- **Scan:** This is the best part! You actually run the first scan and see how it goes, what results are produced. First scan always produces lot of output. That should not overwhelmn you though. Expect false positivies also, most scanners should have some feedback loop so that these can be avoided in the future.
+- **Record the results and fix flaws/bug:** If your scanner cannot save scan logs, make sure you save them somewhere you will have later access to. Parsing the logs is very important, to ensure that you dont miss anything important. Sometimes developers will just skip bugs and focus on any security flaws found, that should be fine as well. But looking at the logs carefully to ensure that security warnings are not missed is very important.
+- **Rinse and repeat:** Now, that your first scan is done, you need to ensure that scanning is done at regular intervals, atleast before a release.
 
 ## When to do SAST
 
