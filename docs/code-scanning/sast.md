@@ -1,3 +1,13 @@
+- [Static application security testing (SAST)](#static-application-security-testing-sast)
+  - [Introduction](#introduction)
+  - [Why do SAST?](#why-do-sast)
+  - [SAST process and workflow](#sast-process-and-workflow)
+  - [When to do SAST](#when-to-do-sast)
+  - [SAST tools](#sast-tools)
+  - [Analyzing the output](#analyzing-the-output)
+  - [Closing words](#closing-words)
+
+
 # Static application security testing (SAST)
 
 ## Introduction
@@ -9,4 +19,13 @@ Also known as static analysis, this method works by running specialized software
 - Another key advantage of the SAST process, is that 100% of the codebase is analyzed, even difficult to reach branches or dead code. 
 - Its much faster than manual reviews or code-audits
 
-## 
+## SAST process and workflow
+
+## When to do SAST
+
+## SAST tools
+
+## Analyzing the output
+
+## Closing words
+
