@@ -32,6 +32,12 @@ SAST is more useful when done very early in the pipeline. Some web/cloud based S
 ## SAST tools
 
 ## Analyzing the output
+Different SAST tools provide output in different ways either as log files, or XML or sometimes even JSON. In the end the purpose of this exercise is to find flaws and fix them, therefore looking at the output in a proper way is most important. Various automation approaches can be used to parse longer log files. Also it does not hurt to get multiple people to see them, sometimes developers take their own code for granted and some mistakes can only be spotted by others.
+
 
 ## Closing words
+One important aspect of dealing with SAST scans is the rate of "false positives". Though SAST tools are getting better with time, sometimes because of complexity of the codebase or even a particular language, there are always false positives (or even sometimes false negatives). A proper method of dealing with them and avoiding them in future is a key to success in this process.
+
+**Overall, SAST is an important process to catch flaws early in the lifecyle and when properly integrated with the pipeline can serve as an important tool for improving overall security of any project.**
+
 
