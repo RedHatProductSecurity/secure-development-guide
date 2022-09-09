@@ -36,6 +36,7 @@ Different SAST tools provide output in different ways either as log files, or XM
 \
 Several SAST tools integrated with CI/CD pipelines show verbose errors during commit process and they can be mitigated pre-built itself. The picture below shows a typical SAST warning from a GitHub Scanning workflow:
 
+![GitHub SAST scan](../images/sast-image.png)
 
 ## Closing words
 One important aspect of dealing with SAST scans is the rate of "false positives". Though SAST tools are getting better with time, sometimes because of complexity of the codebase or even a particular language, there are always false positives (or even sometimes false negatives). A proper method of dealing with them and avoiding them in future is a key to success in this process.
