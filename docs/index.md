@@ -13,6 +13,12 @@ The purpose of this guide is to discuss industry accepted secure development pra
   - [Dynamic Analysis or DAST](code-scanning/dast.md)
   - [Source Composition Analysis](code-scanning/sca.md)
   - [Scanning for Malware/Virus](code-scanning/malware.md)
+- [Fuzzing](fuzzing)
+- [Code Audit](code-audit)
+- [Manifesting/SBOM](manifest)
+- [Vulnerability Response](vuln)
+- [Education](education)
+- [References](references)
 
 ## What are secure development practices
 There are many aspects of secure development. Secure development is a mindset and not just technical know-how of how to code and build securely. It is something which affects all parts of software development lifecyle. Starting from secure design, to code development, QE, release pipeline, patching, support, security advisories and even documentation. \
