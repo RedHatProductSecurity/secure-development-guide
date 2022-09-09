@@ -30,6 +30,11 @@ Also known as static analysis, this method works by running specialized software
 SAST is more useful when done very early in the pipeline. Some web/cloud based SAST tools, run their scanner as soon as code is commited to a repository. This allowers developers to immediately fix the issue at hand. Some even run it during the CI/CD pipeline and block the commit if anything serious is found. Doing it later specially after QE testing is often results in wasted resources since the application will need to be patched and QE run again on it.
 
 ## SAST tools
+While this document is not about discussing SAST tools. There are some important points which should be considered when making a decision:
+- **What language/framework is your project written in:** SAST scanners are typically language specific or atleast support families of languages. It is rare to find a scanner which supports all possible available languages
+- **Where is it hosted:** You may want to use a cloud based online SAST scanner or use one which can be hosted in a private network. Both of them obviously have pros and cons
+- **Lastly, the capabilities of the scanner:** Though SAST scanners are evolving, they are not perfect. Decisions are normally based on speed, accuracy, easy of deployment/configuration, cost and other factors.
+
 
 ## Analyzing the output
 Different SAST tools provide output in different ways either as log files, or XML or sometimes even JSON. In the end the purpose of this exercise is to find flaws and fix them, therefore looking at the output in a proper way is most important. Various automation approaches can be used to parse longer log files. Also it does not hurt to get multiple people to see them, sometimes developers take their own code for granted and some mistakes can only be spotted by others.\
