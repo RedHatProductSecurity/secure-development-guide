@@ -32,7 +32,9 @@ SAST is more useful when done very early in the pipeline. Some web/cloud based S
 ## SAST tools
 
 ## Analyzing the output
-Different SAST tools provide output in different ways either as log files, or XML or sometimes even JSON. In the end the purpose of this exercise is to find flaws and fix them, therefore looking at the output in a proper way is most important. Various automation approaches can be used to parse longer log files. Also it does not hurt to get multiple people to see them, sometimes developers take their own code for granted and some mistakes can only be spotted by others.
+Different SAST tools provide output in different ways either as log files, or XML or sometimes even JSON. In the end the purpose of this exercise is to find flaws and fix them, therefore looking at the output in a proper way is most important. Various automation approaches can be used to parse longer log files. Also it does not hurt to get multiple people to see them, sometimes developers take their own code for granted and some mistakes can only be spotted by others.\
+\
+Several SAST tools integrated with CI/CD pipelines show verbose errors during commit process and they can be mitigated pre-built itself. The picture below shows a typical SAST warning from a GitHub Scanning workflow:
 
 
 ## Closing words
