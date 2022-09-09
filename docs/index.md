@@ -4,6 +4,7 @@
 
 The purpose of this guide is to discuss industry accepted secure development practices specially applied to the open source context. While there are many references and documents freely available on the internet, this guide specifically talks about secure application design and secure development processes and practices. Currently secure coding is out of scope and is [covered by another similar document.](https://docs.fedoraproject.org/en-US/defensive-coding/)
 
+
 ## What are secure development practices
 There are many aspects of secure development. Secure development is a mindset and not just technical know-how of how to code and build securely. It is something which affects all parts of software development lifecyle. Starting from secure design, to code development, QE, release pipeline, patching, support, security advisories and even documentation. \
 \
