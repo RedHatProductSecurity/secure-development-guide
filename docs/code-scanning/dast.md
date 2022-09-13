@@ -1,6 +1,5 @@
 - [Dynamic application security testing (DAST)](#dynamic-application-security-testing-dast)
   - [What is DAST](#what-is-dast)
-  - [Why is DAST important for your code?](#why-is-dast-important-for-your-code)
   - [Phases of DAST](#phases-of-dast)
     - [Identify endpoints](#identify-endpoints)
     - [Send requests](#send-requests)
@@ -16,8 +15,6 @@ DAST stands for dynamic application (or analysis) security testing, and is a bla
 DAST is usually a term broadly used for testing a running target for security flaws, it usually refers to web based applications. This has become quite prevalant in the last decade due to large number of web and
 API based applications.
 
-
-## Why is DAST important for your code?
 
 ## Phases of DAST
 
