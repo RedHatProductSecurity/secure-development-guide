@@ -39,6 +39,9 @@ The previous phase results in a lot of responses and results. Analyzing them, wi
 
 
 ## How does DAST differ from SAST
+Not all security flaws can be detected by using SAST. Similar to what was mentioned earlier, this is specially true in the case of web applications, where the SAST process may be very effective due to various reasons, including the fact that various combiantions of tools, languages and frameworks are often used to build modern day applications.\
+\
+Also, web applications tend to have dynamic states depending on user input and several other factors, this is suitable to DAST based testing tools, who are really able to emulate such things and therefore able to test these applications in an effective way.
 
 ## RapidDAST
 ![RapidDAST](../images/rapiddast.png)
@@ -49,4 +52,4 @@ There is an excellent blog on RapidDAST at:
 https://www.redhat.com/en/blog/automated-dynamic-application-security-testing-enhancing-development-security-rapidast
 
 ## Conclusion
-
+If you have a web or a cloud based application, DAST is the most effective security testing mechanism and should be an integral part of your Software Development lifecyle.
