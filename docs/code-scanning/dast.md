@@ -2,6 +2,9 @@
   - [What is DAST](#what-is-dast)
   - [Why is DAST important for your code?](#why-is-dast-important-for-your-code)
   - [Phases of DAST](#phases-of-dast)
+    - [Identify endpoints](#identify-endpoints)
+    - [Send requests](#send-requests)
+    - [Analyze results](#analyze-results)
   - [How does DAST differ from SAST](#how-does-dast-differ-from-sast)
   - [RapidDAST](#rapiddast)
   - [Conclusion](#conclusion)
@@ -36,6 +39,10 @@ The previous phase results in a lot of responses and results. Analyzing them, wi
 ## How does DAST differ from SAST
 
 ## RapidDAST
+RapiDAST (Rapid DAST) is an open source project to develop a DAST tool that Red Hat Product Security has been working on, [hosted on GitHub.](https://github.com/RedHatProductSecurity/rapidast) RapiDAST is evolving, but at this stage it is focusing on scanning APIs as effectively and conveniently as possible through automation. The project is currently making use of [OWASP ZAP](https://www.zaproxy.org/) — a popular open source web security testing tool — as its core engine.
+
+There is an excellent blog on RapidDAST at:
+https://www.redhat.com/en/blog/automated-dynamic-application-security-testing-enhancing-development-security-rapidast
 
 ## Conclusion
 
