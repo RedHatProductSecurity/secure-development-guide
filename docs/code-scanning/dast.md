@@ -20,6 +20,8 @@ API based applications.
 ## Why is DAST important for your code?
 
 ## Phases of DAST
+
+![3 phases of DAST](../images/3-phases.png)
 ###  Identify endpoints
 In order to improve the security of something, the first step is to identify what actually needs to be secured. API scanning starts with identifying endpoints, called attack surfaces, where attackers input malicious data — such as URLs and parameters — in an attempt to compromise the web application. It should be noted that any data in the web requests can be freely modified by attackers.
 
@@ -39,6 +41,8 @@ The previous phase results in a lot of responses and results. Analyzing them, wi
 ## How does DAST differ from SAST
 
 ## RapidDAST
+![RapidDAST](../images/rapiddast.png)
+
 RapiDAST (Rapid DAST) is an open source project to develop a DAST tool that Red Hat Product Security has been working on, [hosted on GitHub.](https://github.com/RedHatProductSecurity/rapidast) RapiDAST is evolving, but at this stage it is focusing on scanning APIs as effectively and conveniently as possible through automation. The project is currently making use of [OWASP ZAP](https://www.zaproxy.org/) — a popular open source web security testing tool — as its core engine.
 
 There is an excellent blog on RapidDAST at:
