@@ -31,5 +31,5 @@ This term actually comes from manufacturing industry, where a Bill of Materials 
 There are several formats which are currently being used and include, SPDX, SWID and CycloneDX\
 
 ## Conclusion
-
+SCA is an important tool, most suited to complex projects or offerings made up of many third party components. It can used to keep track of security flaws in your software depencies when used in the correct way.
 
