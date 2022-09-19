@@ -42,4 +42,4 @@ All types of contribution to this document are welcome. PRs are preferable. For 
 ## Contributors
 - Huzaifa Sidhpurwala <huzaifas@redhat.com>
 - Judy Kelly <jkelly@redhat.com>
-
+- Jeremy Choi <jechoi@redhat.com>
