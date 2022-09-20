@@ -12,7 +12,6 @@ The purpose of this guide is to discuss industry accepted secure development pra
   - [Static Analysis or SAST](code-scanning/sast.md)
   - [Dynamic Analysis or DAST](code-scanning/dast.md)
   - [Source Composition Analysis](code-scanning/sca.md)
-  - [Scanning for Malware/Virus](code-scanning/malware.md)
 - [Fuzzing](fuzzing)
 - [Code Audit](code-audit)
 - [Manifesting/SBOM](manifest)
