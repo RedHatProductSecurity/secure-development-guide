@@ -28,7 +28,7 @@ SCA processes are often used by customers/consumers because they are not sure wh
 \
 This term actually comes from manufacturing industry, where a Bill of Materials is an inventory detailing all the items included in a product. For each product, the manufacturer knows, what the product is made up of, where each part was sourced from and other details of the part. So when a fault is found in one of the parts, the manufacturer knows exactly what all products are affected and need to be replaced.\
 \
-There are several formats which are currently being used and include, SPDX, SWID and CycloneDX
+There are several formats which are currently being used and include, [SPDX](https://redhatproductsecurity.github.io/secure-development-guide/manifest/#software-package-data-exchange-spdx), [SWID](https://redhatproductsecurity.github.io/secure-development-guide/manifest/#software-identification-tags-swid) and [CycloneDX.](https://redhatproductsecurity.github.io/secure-development-guide/manifest/#cyclonedx)
 
 ## Conclusion
 SCA is an important tool, most suited to complex projects or offerings made up of many third party components. It can used to keep track of security flaws in your software depencies when used in the correct way.
