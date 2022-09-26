@@ -17,14 +17,14 @@ Complex open source offerings are often made of multiple open source components.
 \
 As described above, the primary use of a manifest is to enumerate files or components present in an offering. Other useful information like version numbers etc can also be included for tracking purpose.\
 \
-Manifest files can also be cryptographically signed when they are provided to third parties for verification or even to customers, to make sure their integrity is preserved. They can be human readable text files, or can be XML, JSON or whatever format suits the underlying generating and parsing mechanism.\
+Manifest files can also be cryptographically signed when they are provided to third parties for verification or even to customers, to make sure their integrity is preserved. They can be human readable text files, or can be XML, JSON or whatever format suits the underlying generating and parsing mechanism.
 
 ## Generating/Managing/Using a manifest
 Manifest file generation is and should be an automated process. It does not really make sense to write a manifest manually. This is eliminate human errors in the process, including the fact that the person generating the manifest by hand, could leave the organization one day, and no one else would really have a clue about how the process really works.\
 \
 On similar lines, less a manifest file is kept to upto date, it really have very little meaning. Triggers to update a manifest file are whenever a new release of the software or offering is done, or on a timely basis when we are dealing with rolling relases, or even when a build is done sometimes via the CI/CD pipeline. This really depends on the project and the criticality of keeping the manifest updated.\
 \
-The most important use of manifest is trying to figure out if a particular security flaws affects one of the components shipped in your offering. This can only happen if the manifest file exists in the first place and secondly is kept upto date on a regular basis. Manifest files can parsed semi-automatically or even automatically depending on the size of the manifest and the data can used to track and fix security flaws in the offering.\
+The most important use of manifest is trying to figure out if a particular security flaws affects one of the components shipped in your offering. This can only happen if the manifest file exists in the first place and secondly is kept upto date on a regular basis. Manifest files can parsed semi-automatically or even automatically depending on the size of the manifest and the data can used to track and fix security flaws in the offering.
 
 ## Software Bill of Materials
 SBOMs were briefly discussed in the section on [Software Composition Analysis](../code-scanning/sca.md#SBOM). Essentially a SBOM is a manifest with a lot of bells and whistles!. SBOMs list all the components used in a offering along with additional information which can be related to licenses, source from where those components are taken etc.\
@@ -36,14 +36,14 @@ Let us briefly discuss the various formats used for SBOM
 ### Software Package Data Exchange (SPDX)
 [SPDX, a Linux Foundation project,](https://spdx.dev/) was formed with the intent of creating a common data exchange format for information related to software packages for sharing and collection. SPDX supports the largest collection of file formats among the leading SBOM formats. These include RDFa, .xlsx, .spdx, .xml, .json, and .yaml. SPDX also aims to be a dynamic specification by being able to describe a set of software packages, files, or snippets. SPDX is the only SBOM format that has achieved International Organization for Standardization (ISO) [certification status.](https://spdx.github.io/spdx-spec/)\
 \
-SPDX documents can be composed of fields and data such as document creation information, package information, file information, snippet information, licensing information, relationships, and annotations.\
+SPDX documents can be composed of fields and data such as document creation information, package information, file information, snippet information, licensing information, relationships, and annotations.
 
 ### CycloneDX
 [CycloneDX](https://cyclonedx.org/) is being led by longtime security community leader Open Web Application Security Project (OWASP). CycloneDX is a self-defined lightweight SBOM standard designed for use in application security contexts and supply chain component analysis.
 \
 CycloneDX supports referencing components, services and vulnerabilities in other systems and BOMs as well, in a nesting and hierarchical approach that aligns with the complexity of the modern software ecosystem when it comes to hardware, cloud and SaaS. 
 \
- It allows for the identification of vulnerabilities through three fields, which are Common Platform Enumeration (CPE), SWID, and Package-URL (PURL). The CPE specification can be used for vulnerabilities in operating systems, applications and hardware devices. SWID is used for installed software and PURL can be used for software package metadata.\
+ It allows for the identification of vulnerabilities through three fields, which are Common Platform Enumeration (CPE), SWID, and Package-URL (PURL). The CPE specification can be used for vulnerabilities in operating systems, applications and hardware devices. SWID is used for installed software and PURL can be used for software package metadata.
 
 ### Software Identification Tags (SWID)
 According to NIST, “the SWID standard defines a lifecycle where a SWID tag is added to an endpoint as part of the software product’s installation process and deleted by the product’s uninstall process.” Standard indicators of a software product’s presence on a device through a consistent label with details on the product name and version.\
