@@ -41,8 +41,15 @@ Fuzzing is a resource intensive process, which needs time, computing resources e
 As described above, applications on the internet or on an untrusted networks are easy targets for attackers and fuzzing could help discover flaws in them. Typically applications which need lot of user steps may not be good fuzzing targets for example consider an internal company application which needs a login after which you have to get a kerberos ticket and then can be used to upload expense reports, such applications may be difficult to fuzz or may require more specialized techniques. 
 
 ## Some open source fuzzing initiatives
-- oss fuzz
-- clusterfuzz
+Recently several open source initiatives were made avaiable specially for open source projects who did not have enough resources to run their own fuzzing infrastructure. We list two of these in the sections below
+
+### OSS-Fuzz
+[OSS-Fuzz is a free service](https://google.github.io/oss-fuzz/) that continuously runs fuzzers for open source projects. This GitHub repository manages the service and enrolling in it is handled by pull requests. Once a project has integrated with OSS-Fuzz, the fuzzers affiliated with that project run daily—continuously and indefinitely. OSS-Fuzz emails maintainers when a bug is found and also has a dashboard with details about all issues found (stack traces, artifacts for reproducing issues, and so on). OSS-Fuzz aims to make common open source software more secure and stable by combining modern fuzzing techniques with scalable, distributed execution. To be accepted to OSS-Fuzz, an open-source project must have a significant user base and/or be critical to the global IT infrastructure. 
+
+### ClusterFuzz
+[ClusterFuzz](https://github.com/google/clusterfuzz) is a scalable fuzzing infrastructure that finds security and stability issues in software. It provides scalable fuzzing on a cluster of any size. [Clusterfuzz is open source](https://opensource.googleblog.com/2019/02/open-sourcing-clusterfuzz.html) and avaible for any one to use. 
+
+Both of these open source initiatives are provided by Google.
 
 ## Closing remarks
 Fuzzing in an excellent method of discovering flaws. But its resource intensive. Though a right combination of identication of high value targets and fuzzing methods can help uncover and fix lot of security flaws and help organizations save money in the long term.
