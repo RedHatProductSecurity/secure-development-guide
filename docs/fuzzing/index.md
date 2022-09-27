@@ -32,5 +32,5 @@ Not strictly a different catergory, but instrumented fuzzers basically insert sm
 One very good example of Instrumented fuzzers is [American fuzzy lop](https://lcamtuf.coredump.cx/afl/). Compared to other instrumented fuzzers, afl-fuzz is designed to be practical: it has modest performance overhead, uses a variety of highly effective fuzzing strategies and effort minimization tricks, requires essentially no configuration, and seamlessly handles complex, real-world use cases - say, common image parsing or file compression libraries.\
 \
 Diagram below shows AFL in action (Image taken from its website at: https://lcamtuf.coredump.cx/afl/)
-![AFL in action](../images/afl-screen.png)
+![AFL in action](../images/afl_screen.png)
 
