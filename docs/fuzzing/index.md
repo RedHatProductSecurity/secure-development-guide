@@ -29,7 +29,7 @@ Since web appliation are specialized applications, they need special fuzzers. Yo
 ### Instrumented fuzzers
 Not strictly a different catergory, but instrumented fuzzers basically insert small hooks into the code during the compile process, which ensures that all parts of the code get a good coverage. Therefore you need the source code to be available and needs to be compiled with the fuzzer libraries. Recently these kind of fuzzers have been quite succesful at finding huge number of previously uncovered flaws in various applications and libraries.\
 \
-One very good example of Instrumented fuzzers in [American fuzzy lop] (https://lcamtuf.coredump.cx/afl/). Compared to other instrumented fuzzers, afl-fuzz is designed to be practical: it has modest performance overhead, uses a variety of highly effective fuzzing strategies and effort minimization tricks, requires essentially no configuration, and seamlessly handles complex, real-world use cases - say, common image parsing or file compression libraries.\
+One very good example of Instrumented fuzzers is [American fuzzy lop](https://lcamtuf.coredump.cx/afl/). Compared to other instrumented fuzzers, afl-fuzz is designed to be practical: it has modest performance overhead, uses a variety of highly effective fuzzing strategies and effort minimization tricks, requires essentially no configuration, and seamlessly handles complex, real-world use cases - say, common image parsing or file compression libraries.\
 \
 Diagram below shows AFL in action (Image taken from its website at: https://lcamtuf.coredump.cx/afl/)
 ![AFL in action](../images/afl-screen.png)
