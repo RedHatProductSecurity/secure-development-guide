@@ -31,6 +31,18 @@ Not strictly a different catergory, but instrumented fuzzers basically insert sm
 \
 One very good example of Instrumented fuzzers is [American fuzzy lop](https://lcamtuf.coredump.cx/afl/). Compared to other instrumented fuzzers, afl-fuzz is designed to be practical: it has modest performance overhead, uses a variety of highly effective fuzzing strategies and effort minimization tricks, requires essentially no configuration, and seamlessly handles complex, real-world use cases - say, common image parsing or file compression libraries.\
 \
-Diagram below shows AFL in action (Image taken from its website at: https://lcamtuf.coredump.cx/afl/)
+Diagram below shows AFL in action (Image taken from its website at: https://lcamtuf.coredump.cx/afl/)\
 ![AFL in action](../images/afl_screen.png)
 
+## Understanding resource requirements for fuzzing
+Fuzzing is a resource intensive process, which needs time, computing resources etc. In the end both translate to more money. So its really a corporate decision to figure out how much money should be spent to uncover any flaws. (If any flaws are found at the end of the process) or are we better off using other techniques described in this guide like SAST for example or code-reviews. It is always useful to fuzz any API end points or user interfaces like login screen etc, which are open on the internet. As compared to that applications on the intranet may not be given so much importance given the fact that they are exposed to a limited audience internally.
+
+## When is fuzzing useful?
+As described above, applications on the internet or on an untrusted networks are easy targets for attackers and fuzzing could help discover flaws in them. Typically applications which need lot of user steps may not be good fuzzing targets for example consider an internal company application which needs a login after which you have to get a kerberos ticket and then can be used to upload expense reports, such applications may be difficult to fuzz or may require more specialized techniques. 
+
+## Some open source fuzzing initiatives
+- oss fuzz
+- clusterfuzz
+
+## Closing remarks
+Fuzzing in an excellent method of discovering flaws. But its resource intensive. Though a right combination of identication of high value targets and fuzzing methods can help uncover and fix lot of security flaws and help organizations save money in the long term.
