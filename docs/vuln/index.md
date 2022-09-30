@@ -19,4 +19,4 @@ At the very minimum, what the issue is, what version if affects, how it can be r
 \
 For example refer to [Red Hat's security page](https://access.redhat.com/security/team/contact) on how to contact the security team and what information we woud probably need. You dont have to have an efficient and large security team, but the basic information remains the same.\
 
-[!Red Hat security page](../images/rh-security.png)
+![Red Hat Security page](../images/rh-security.png)
