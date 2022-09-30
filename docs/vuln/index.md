@@ -17,6 +17,6 @@ This should be present on the front page of the project site or whereever its we
 ## What should a security report contain:
 At the very minimum, what the issue is, what version if affects, how it can be reproduced, what environment the researcher used to reproduce the issue and if he has any Proof of Concept if any. \
 \
-For example refer to [Red Hat's security page](https://access.redhat.com/security/team/contact) on how to contact the security team and what information we woud probably need. You dont have to have an efficient and large security team, but the basic information remains the same.\
-
-![Red Hat Security page](../images/rh-security.png)
+For example refer to [Red Hat's security page](https://access.redhat.com/security/team/contact) on how to contact the security team and what information we woud probably need. You dont have to have an efficient and large security team, but the basic information remains the same.
+<kbd>
+![Red Hat Security page](../images/rh-security.png)</kbd>
