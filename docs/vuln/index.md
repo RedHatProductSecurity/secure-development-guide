@@ -20,3 +20,16 @@ At the very minimum, what the issue is, what version if affects, how it can be r
 For example refer to [Red Hat's security page](https://access.redhat.com/security/team/contact) on how to contact the security team and what information we woud probably need. You dont have to have an efficient and large security team, but the basic information remains the same.
 <kbd>
 ![Red Hat Security page](../images/rh-security.png)</kbd>
+
+## Security advisory
+Now that you have resolved the security issue with your software and released a fixed version, how do you let the users know that a new version which fixes security issues is available? One way of doing this is to write a security advisory page for each issue found. The advisory should contain at the minimum, some basic information about what the security flaw was, what is the possible risk to the users, which version fixes it, any other mitigating factors and some metadata like CVE id if required.\
+\
+Diagram below shows a typical security advisory, this one is from the LibreOffice project and has all the essential information users would every require:
+![Libreoffice advisory](../images/libre.png)
+Most people think you need some security background to write a good advisory, but that is not really the case. An advisory is supposed to be consumed by the users of the application and not some security engineer, so keep it simple and provide all the important information which is required.
+
+## Set proper lifetime of your software
+If you are working on various versions of the your software, you will eventually reach a point where you cannot continue manintaining all of them. Therefore it is necessary to sunset older versions at some point of time. Ensure you have a plan for this, this is important from security perspective as well, because yours users may still be user older versions not aware of the fact, that you dont backport security issues to the older versions anymore.
+
+## Conclusion
+A basic Vulnerability Response program is very important. It can be a web page which just says how you handle security, does not need to be fancy, but just a simple process which is operational.
