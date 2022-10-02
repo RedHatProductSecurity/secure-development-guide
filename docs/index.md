@@ -16,7 +16,6 @@ The purpose of this guide is to discuss industry accepted secure development pra
 - [Code Audit](code-audit)
 - [Manifesting/SBOM](manifest)
 - [Vulnerability Response](vuln)
-- [Education](education)
 - [References](refs)
 
 ## What are secure development practices
