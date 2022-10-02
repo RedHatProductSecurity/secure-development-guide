@@ -1,3 +1,11 @@
+- [Vulnerability Response](#vulnerability-response)
+  - [Introduction](#introduction)
+  - [Clearly documenting where probable security flaws are to be reported](#clearly-documenting-where-probable-security-flaws-are-to-be-reported)
+  - [What should a security report contain:](#what-should-a-security-report-contain)
+  - [Security advisory](#security-advisory)
+  - [Set proper lifetime of your software](#set-proper-lifetime-of-your-software)
+  - [Conclusion](#conclusion)
+
 # Vulnerability Response
 
 ## Introduction
