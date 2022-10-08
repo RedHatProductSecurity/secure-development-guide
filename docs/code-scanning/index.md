@@ -6,4 +6,3 @@ Code scanning is a method of scanning your project before it is build and delive
 - [Static Analysis or SAST](sast.md)
 - [Dynamic Analysis or DAST](dast.md)
 - [Source Composition Analysis](sca.md)
-- [Scanning for Malware/Virus](malware.md)
