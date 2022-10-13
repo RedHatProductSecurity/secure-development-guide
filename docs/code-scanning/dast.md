@@ -9,10 +9,10 @@
   - [Conclusion](#conclusion)
 
 # Dynamic application security testing (DAST)
-DAST stands for dynamic application (or analysis) security testing, and is a blackbox testing methodology used to uncover potential security flaws by performing automated security scanning against a running target. DAST works by simulating automated attacks on an application, mimicking a malicious attacker. The goal is to find outcomes or results that were not expected and could therefore be used by attackers to compromise an application.
+DAST stands for dynamic application (or analysis) security testing and is a blackbox testing methodology used to uncover potential security flaws by performing automated security scanning against a running target. DAST works by simulating automated attacks on an application, mimicking a malicious attacker. The goal is to find outcomes or results that were not expected and could therefore be used by attackers to compromise an application.
 
 ## What is DAST
-DAST is usually a term broadly used for testing a running target for security flaws, it usually refers to web based applications. This has become quite prevalant in the last decade due to large number of web and
+DAST is usually a term broadly used for testing a running target for security flaws, it usually refers to web-based applications. This has become quite prevalent in the last decade due to the large number of web and
 API based applications.
 
 
