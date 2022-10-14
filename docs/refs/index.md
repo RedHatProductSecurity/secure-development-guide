@@ -7,7 +7,7 @@
 
 # Some useful references
 
-No document is complete without links to pages where you can know more. This page intends to collect some useful links. We will try to keep this page updated as much as we can with, though there is no guarantee that it will always reflect the newest material available on the internet.
+No document is complete without links to pages where you can expand your knowledge. This page intends to collect some useful links. We will endeavour to keep this page updated, though there is no guarantee that it will always reflect the newest material available on the internet.
 
 ## Standards
 - [Executive order on improving nation's cybersecurity](https://www.cisa.gov/executive-order-improving-nations-cybersecurity)
