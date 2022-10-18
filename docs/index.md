@@ -2,7 +2,7 @@
 
 ## Welcome to the Secure Development Guide!
 
-The purpose of this guide is to discuss industry accepted secure development practices specially applied to the open source context. While there are many references and documents freely available on the internet, this guide specifically talks about secure application design and secure development processes and practices. Currently secure coding is out of scope and is [covered by another similar document.](https://docs.fedoraproject.org/en-US/defensive-coding/)
+The purpose of this guide is to discuss-industry accepted secure development practices specially applied to the open source context. While there are many references and documents freely available on the internet, this guide specifically talks about secure application design and secure development processes and practices. Currently, secure coding is out of scope and is [covered by another similar document.](https://docs.fedoraproject.org/en-US/defensive-coding/)
 
 
 - [What are secure development practices](#what-are-secure-developement-practices)
@@ -28,14 +28,14 @@ This document aims to look at some of these practices in brief. The aim is not t
 ## How does all this apply to open source?
 Most people think that Secure Development LifeCycle is something which can only be applied to software created from scratch in a controlled corporate environment. This is not true!!. Secure development practices can be applied to open source software and are even applicable to packagers or application developers who use open source libraries or code.\
 \
-This guide contains processes which can be applied to code independent of who developed it or what stages of development the codebase is at. It is our opinion that these process can be easily applied to open source software because a lot of these techniques and tools are more suitable to code that is publicly available.\
+This guide contains processes which can be applied to code independent of who developed it or what stages of development the codebase is at. It is our opinion that these processes can be easily applied to open source software because a lot of these techniques and tools are more suitable to code that is publicly available.\
 \
 So buckle up!! And get ready to learn secure software development for open source software!!
 
 ## [License](license)
 
 ## Contributing
-All types of contribution to this document are welcome. PRs are preferable. For larger changes it would perhaps make more sense in discussing them before hand before filing change requests.
+All types of contributions to this document are welcome. PRs are preferable. For larger changes, it would perhaps make more sense in discussing them beforehand before filing change requests.
 
 ## Contributors
 - Huzaifa Sidhpurwala <huzaifas@redhat.com>
