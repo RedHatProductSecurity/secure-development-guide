@@ -1,5 +1,10 @@
-Unresolved directive in Tasks-Descriptors.adoc -
-include::partial$entities.adoc\[\]
+- [File Descriptor Management](#file-descriptor-management)
+  - [Closing Descriptors](#closing-descriptors)
+    - [Error Handling during Descriptor Close](#error-handling-during-descriptor-close)
+    - [Closing Descriptors and Race Conditions](#closing-descriptors-and-race-conditions)
+    - [Lingering State after Close](#lingering-state-after-close)
+  - [Preventing File Descriptor Leaks to Child Processes](#preventing-file-descriptor-leaks-to-child-processes)
+  - [Dealing with the `select` Limit](#dealing-with-the-select-limit)
 
 # File Descriptor Management
 

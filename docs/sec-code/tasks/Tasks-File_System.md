@@ -1,6 +1,9 @@
-Unresolved directive in Tasks-File_System.adoc -
-include::partial$entities.adoc\[\]
-
+- [File System Manipulation](#file-system-manipulation)
+  - [Working with Files and Directories Owned by Other Users](#working-with-files-and-directories-owned-by-other-users)
+  - [Accessing the File System as a Different User](#accessing-the-file-system-as-a-different-user)
+  - [File System Limits](#file-system-limits)
+  - [File system features](#file-system-features)
+  - [Checking Free Space](#checking-free-space)
 # File System Manipulation
 
 In this chapter, we discuss general file system manipulation, with a

@@ -1,6 +1,18 @@
-Unresolved directive in Tasks-Serialization.adoc -
-include::partial$entities.adoc\[\]
-
+- [Serialization and Deserialization](#serialization-and-deserialization)
+  - [Recommendations for Manually-written Decoders](#recommendations-for-manually-written-decoders)
+  - [Protocol Design](#protocol-design)
+  - [Fragmentation](#fragmentation)
+    - [Fragment IDs](#fragment-ids)
+  - [Library Support for Deserialization](#library-support-for-deserialization)
+  - [XML Serialization](#xml-serialization)
+    - [External References](#external-references)
+    - [Entity Expansion](#entity-expansion)
+    - [XInclude Processing](#xinclude-processing)
+    - [Algorithmic Complexity of XML Validation](#algorithmic-complexity-of-xml-validation)
+    - [Using Expat for XML parsing](#using-expat-for-xml-parsing)
+    - [Using Qt for XML Parsing](#using-qt-for-xml-parsing)
+    - [Using OpenJDK for XML Parsing and Validation](#using-openjdk-for-xml-parsing-and-validation)
+  - [Protocol Encoders](#protocol-encoders)
 # Serialization and Deserialization
 
 Protocol decoders and file format parsers are often the most-exposed

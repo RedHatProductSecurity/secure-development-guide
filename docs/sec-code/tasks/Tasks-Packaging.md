@@ -1,5 +1,8 @@
-Unresolved directive in Tasks-Packaging.adoc -
-include::partial$entities.adoc\[\]
+- [RPM Packaging](#rpm-packaging)
+  - [Generating X.509 Self-signed Certificates during Installation](#generating-x509-self-signed-certificates-during-installation)
+- [Name of the user owning the file with the private key](#name-of-the-user-owning-the-file-with-the-private-key)
+- [Name of the directory which contains the key and certificate files](#name-of-the-directory-which-contains-the-key-and-certificate-files)
+  - [Generating X.509 Self-signed Certificates before Service Start](#generating-x509-self-signed-certificates-before-service-start)
 
 # RPM Packaging
 

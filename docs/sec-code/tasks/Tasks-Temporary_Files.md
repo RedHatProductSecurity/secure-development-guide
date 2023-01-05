@@ -1,5 +1,9 @@
-Unresolved directive in Tasks-Temporary_Files.adoc -
-include::partial$entities.adoc\[\]
+- [Temporary Files](#temporary-files)
+  - [Obtaining the Location of Temporary Directory](#obtaining-the-location-of-temporary-directory)
+  - [Named Temporary Files](#named-temporary-files)
+  - [Temporary Files without Names](#temporary-files-without-names)
+  - [Temporary Directories](#temporary-directories)
+  - [Compensating for Unsafe File Creation](#compensating-for-unsafe-file-creation)
 
 # Temporary Files
 

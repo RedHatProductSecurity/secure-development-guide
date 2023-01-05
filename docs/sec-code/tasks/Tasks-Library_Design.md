@@ -1,6 +1,10 @@
-Unresolved directive in Tasks-Library_Design.adoc -
-include::partial$entities.adoc\[\]
-
+- [Library Design](#library-design)
+  - [State Management](#state-management)
+    - [Global State](#global-state)
+    - [Handles](#handles)
+  - [Object Orientation](#object-orientation)
+  - [Callbacks](#callbacks)
+  - [Process Attributes](#process-attributes)
 # Library Design
 
 Through this section, the term **client code** refers to applications
