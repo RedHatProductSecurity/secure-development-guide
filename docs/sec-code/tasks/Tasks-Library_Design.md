@@ -66,7 +66,7 @@ difficult to predict how client code will react when calls to virtual
 methods are added, reordered or removed.
 
 Virtual member functions can be used as callbacks. See
-[Callbacks](#sect-Defensive_Coding-Tasks-Library_Design-Callbacks) for
+[Callbacks](#callbacks) for
 some of the challenges involved.
 
 ## Callbacks
@@ -115,7 +115,7 @@ Several attributes are global and affect all code in the process, not
 just the library that manipulates them.
 
 -   environment variables (see [Accessing Environment
-    Variables](tasks/Tasks-Processes.xml#sect-Defensive_Coding-Tasks-secure_getenv))
+    Variables](Tasks-Processes#accessing-environment-variables))
 
 -   umask
 
