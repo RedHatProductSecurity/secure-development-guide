@@ -11,7 +11,7 @@ focus on access files and directories to which an other, potentially
 untrusted user has write access.
 
 Temporary files are covered in their own chapter, [Temporary
-Files](tasks/Tasks-Temporary_Files.xml#chap-Defensive_Coding-Tasks-Temporary_Files).
+Files](Tasks-Temporary_Files).
 
 ## Working with Files and Directories Owned by Other Users
 
@@ -21,7 +21,7 @@ could remove the home directory of a user, or a package manager could
 update a file in a directory which is owned by an application-specific
 user. This differs from accessing the file system as a specific user;
 see [Accessing the File System as a Different
-User](#sect-Defensive_Coding-Tasks-File_System-Foreign).
+User](#accessing-the-file-system-as-a-different-user).
 
 Accessing files across trust boundaries faces several challenges,
 particularly if an entire directory tree is being traversed:
@@ -103,7 +103,7 @@ directory tree being processed.
 This section deals with access to the file system as a specific user.
 This is different from accessing files and directories owned by a
 different, potentially untrusted user; see [Accessing the File System as
-a Different User](#sect-Defensive_Coding-Tasks-File_System-Foreign).
+a Different User](#accessing-the-file-system-as-a-different-user).
 
 One approach is to spawn a child process which runs under the target
 user and group IDs (both effective and real IDs). Note that this child
