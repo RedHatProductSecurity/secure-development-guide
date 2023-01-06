@@ -3,7 +3,6 @@
   - [Randomness](#randomness)
   - [Removing Sensitive information from memory](#removing-sensitive-information-from-memory)
 
-Unresolved directive in Tasks-Cryptography.adoc - include::partial$entities.adoc\[\]
 
 # Cryptography
 

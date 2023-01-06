@@ -23,7 +23,7 @@ sometimes grow very large.
 If a descriptor is no longer used by a program and is not closed
 explicitly, its number cannot be reused (which is problematic in itself,
 see [Dealing with the
-Limit](#sect-Defensive_Coding-Tasks-Descriptors-Limit)), and the kernel
+Limit](#dealing-with-the-select-limit)), and the kernel
 resources are not freed. Therefore, it is important to close all
 descriptors at the earliest point in time possible, but not earlier.
 
@@ -127,7 +127,7 @@ descriptors in the parent process:
     ranging from `3` to `255` and later `1023`. But this is only an
     approximation because it is possible to create file descriptors
     outside this range easily (see [Dealing with the
-    Limit](#sect-Defensive_Coding-Tasks-Descriptors-Limit)). Another
+    Limit](#dealing-with-the-select-limit)). Another
     approach reads `/proc/self/fd` and closes the unexpected descriptors
     listed there, but this approach is much slower.
 
