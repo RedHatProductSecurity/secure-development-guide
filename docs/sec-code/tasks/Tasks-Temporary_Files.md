@@ -12,15 +12,14 @@ directories, how to remove them, and how to work with programs which do
 not create files in ways that are safe with a shared directory for
 temporary files. General file system manipulation is treated in a
 separate chapter, [File System
-Manipulation](tasks/Tasks-File_System.xml#chap-Defensive_Coding-Tasks-File_System).
+Manipulation](Tasks-File_System).
 
 Secure creation of temporary files has four different aspects.
 
 -   The location of the directory for temporary files must be obtained
     in a secure manner (that is, untrusted environment variables must be
     ignored, see
-    xref:tasks/Tasks-Processes.adoc#sect-Defensive_Coding-Tasks-secure_getenv\[Accessing
-    Environment Variables).
+    xref:tasks/Tasks-Processes#accessing-environment-variables).
 
 -   A new file must be created. Reusing an existing file must be avoided
     (the `/tmp` race condition). This is tricky because traditionally,
@@ -70,7 +69,7 @@ subprocesses. (Applications which do not use multiple threads can also
 use `mkstemp`, but libraries should use `mkostemp`.) For determining the
 directory part of the file name pattern, see [Obtaining the Location of
 Temporary
-Directory](#chap-Defensive_Coding-Tasks-Temporary_Files-Location)
+Directory](#obtaining-the-location-of-temporary-directory)
 
 The file is not removed automatically. It is not safe to rename or
 delete the file before processing, or transform the name in any way (for
@@ -90,7 +89,7 @@ file-like objects. The C function `mkostemp` is also available as
 In Java, you can use the `java.io.File.createTempFile(String, String,
 File)` function, using the temporary file location determined according
 to [Obtaining the Location of Temporary
-Directory](#chap-Defensive_Coding-Tasks-Temporary_Files-Location). Do
+Directory](#obtaining-the-location-of-temporary-directory). Do
 not use `java.io.File.deleteOnExit()` to delete temporary files, and do
 not register a shutdown hook for each temporary file you create. In both
 cases, the deletion hint cannot be removed from the system if you delete
@@ -120,7 +119,7 @@ Java does not support unnamed temporary files.
 The `mkdtemp` function can be used to create a temporary directory. (For
 determining the directory part of the file name pattern, see [Obtaining
 the Location of Temporary
-Directory](#chap-Defensive_Coding-Tasks-Temporary_Files-Location).) The
+Directory](#obtaining-the-location-of-temporary-directory) The
 directory is not automatically removed. In Python, this function is
 available as `tempfile.mkdtemp`. In Java 7, temporary directories can be
 created using the `java.nio.file.Files.createTempDirectory(Path, String,
@@ -141,7 +140,7 @@ and `--` options.
 
 There are two ways to make a function or program which excepts a file
 name safe for use with temporary files. See [Creating Safe
-Processes](tasks/Tasks-Processes.xml#sect-Defensive_Coding-Tasks-Processes-Creation)
+Processes](Tasks-Processes#process-creation)
 for details on subprocess creation.
 
 -   Create a temporary directory and place the file there. If possible,
@@ -149,7 +148,7 @@ for details on subprocess creation.
     as its current directory, with a restricted environment. Use
     generated names for all files in that temporary directory. (See
     [Temporary
-    Directories](#chap-Defensive_Coding-Tasks-Temporary_Directory).)
+    Directories](#obtaining-the-location-of-temporary-directory).)
 
 -   Create the temporary file and pass the generated file name to the
     function or program. This only works if the function or program can
